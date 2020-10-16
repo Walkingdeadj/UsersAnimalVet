@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Welcome to our new animal vet!</title>
+</head>
+<body>
+	<h1 style="color:blue" style="font-size:40px">We are new open animal vet</h1>
+	<p style="font-size:25px">You can register your pet by type in the following info</p>
+	<form action = "addPetServlet" method="post">
+	Type: <input type ="text" name = "type">
+	Name: <input type = "text" name = "name">
+	Owner: <input type = "text" name = "owner">
+	<input type = "submit" value="Add Information in system">
+	</form> <br />
+	<a href = "viewAllPetsServlet">View the complete list</a>
+	<a href="viewAllListsServlet">View all pet lists</a> <br />
+	<a href="addPetsForListServlet">Create a new list</a>
+</body>
+</html>
