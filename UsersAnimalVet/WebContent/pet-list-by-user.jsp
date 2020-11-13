@@ -15,7 +15,7 @@
    <td><input type="radio" name="id" value="${currentlist.id}"></td>
    <td><h2>${currentlist.listName}</h2></td></tr>
    <tr><td colspan="3">Visit Date: ${currentlist.visitDate}</td></tr>
-   <tr><td colspan="3">Owner: ${currentlist.owner.ownerPNum}</td></tr>
+   <tr><td colspan="3">Owner Phone Number: ${currentlist.owner.ownerPNum}</td></tr>
    <c:forEach var = "listVal" items = "${currentlist.listOfPets}">
             <tr><td></td><td colspan="3">
               	${listVal.type}, ${listVal.name}, ${listVal.owner}
